@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    width: auto;
+    padding-top: 60px;
+}
+
+.header-link_logo {
+    margin: 0 auto;
+    background-image: url('../../images/logo.svg');
+
+    width: 190px;
+    height: 60px;
+}
+
+
+@media screen and (max-width: 1920px) and (min-width: 761px) {
+    .header {
+        padding-top: 100px;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .header {
+        padding-top: 83px;
+    }
+        .header-link_logo {
+        background-size: cover;
+        width: 128px;
+        height: 40px;
+    }
+}

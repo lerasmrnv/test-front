@@ -1,0 +1,49 @@
+
+.main-container_frame-timer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+    margin-bottom: 68px;
+}
+
+.count {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+
+    color: #162C4E;
+}
+
+.frame-timer_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 132px;
+    height: 54px;
+
+    background-image: url('../../images/Vector-times.svg');
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 761px) {
+    .count {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .count {
+        font-size: 36px;
+    }
+}

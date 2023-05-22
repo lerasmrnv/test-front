@@ -21,31 +21,38 @@
 }
 
 .frame_background_left {
+  height: 100%;
+  width: 100%;
+
   background-image: url('../images/Vector.svg');
 }
 
 .frame-background_right {
+  height: 100%;
+  width: 100%;
+
   background-image: url('../images/Vector-right.svg');
 }
 
 @media screen and (min-width: 1920px) {
 .frame_background_left {
-  height: 419px;
-  width: 468px;
+  max-height: 419px;
+  max-width: 468px;
 }
 
 .frame-background_right {
-  height: 288px;
-  width: 233px;
+  max-height: 288px;
+  max-width: 233px;
 }
 }
 
 
 @media screen and (max-width: 1920px) and (min-width: 761px) {
   .frame_background_left {
-    height: 223px;
-    width: 250px;
-    background-size: contain;
+    max-height: 223px;
+    max-width: 250px;
+    
+    background-size: cover;
   }
   
   .frame-background_right {
@@ -57,14 +64,15 @@
 
 @media screen and (max-width: 760px) {
   .frame_background_left {
-    height: 144px;
-    width: 162px;
-    background-size: contain;
+    max-height: 144px;
+    max-width: 162px;
+
+    background-size: cover;
   }
   
   .frame-background_right {
-    height: 147px;
-    width: 140px;
+    max-height: 147px;
+    max-width: 140px;
     background-size: cover;
   }
 }

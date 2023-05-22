@@ -33,43 +33,55 @@
 
         <div class="main-container_frame-timer">
             <div class="frame-timer_days">
-                <p class="frame-timer_days-count count">92</p>
-                <p class="frame-timer_wrap">Days</p>
+                <p class="frame-timer_days-count count">00</p>
+                <p class="frame-timer_wrap desktop">Days</p>
+                <p class="frame-timer_wrap mobile">DD</p>
             </div>
             <p class="count">:</p>
             <div class="frame-timer_hours">
-                <p class="frame-timer_hours-count count">11</p>
-                <p class="frame-timer_wrap">Hours</p>
+                <p class="frame-timer_hours-count count">00</p>
+                <p class="frame-timer_wrap desktop">Hours</p>
+                <p class="frame-timer_wrap mobile">HH</p>
             </div>
             <p class="count">:</p>
             <div class="frame-timer_minutes">
-                <p class="frame-timer_minutes-count count">22</p>
-                <p class="frame-timer_wrap">Minutes</p>
+                <p class="frame-timer_minutes-count count">00</p>
+                <p class="frame-timer_wrap desktop">Minutes</p>
+                <p class="frame-timer_wrap mobile">MM</p>
             </div>
             <p class="count">:</p>
             <div class="frame-timer_seconds">
-                <p class="frame-timer_seconts-count count">42</p>
-                <p class="frame-timer_wrap">Seconds</p>
+                <p class="frame-timer_seconts-count count">00</p>
+                <p class="frame-timer_wrap desktop">Seconds</p>
+                <p class="frame-timer_wrap mobile">SS</p>
             </div>
         </div>
 
         <div class="main-container_button-wrapper">
             <p class="button-wrapper_text button_text">Check our event page when you wait:</p>
-            <button class="button">
+            <a class="button" href="https://lerasmrnv.github.io/datamola/">
                 <p class="button_text">Go to the event</p>
                 <img src="./assets/images/arrow.svg" alt="arrow" />
-            </button>
+            </a>
         </div>
 
     </main>
 
     <footer class="footer-container">
-        <div class="email-wrapper">
-            <input class="email" type="email" placeholder="Enter your Email and get notified" />
-            <button class="email-submit"><img src="./assets/images/arrow.svg" /></button>
+        <form class="email-wrapper form" action="#"> 
+            <input class="email" type="text" id="email" name="email" placeholder="Enter your Email and get notified" />
+            <button class="email-submit" type="submit"><img src="./assets/images/arrow.svg" /></button>
+        </form>
+        <span class="email-error"></span>
 
+        <div class="modal">
+            <p>Send email</p>
         </div>
     </footer>
+
+
+    <!-- <script src="./scrips/timer.js"></script> -->
+    <script src="./scrips/index.js"></script>
 </body>
 
 </html>

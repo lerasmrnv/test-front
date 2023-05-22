@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) and (min-width: 361px) {
     .main-container {
         margin: auto 20px;
     }
@@ -53,6 +53,17 @@
     }
     .main-container_text {
         font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main-container_title {
+        font-size: 16px;
+        text-align: center;
+    }
+    .main-container_text {
+        font-size: 14px;
         text-align: center;
     }
 }

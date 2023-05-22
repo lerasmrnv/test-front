@@ -22,28 +22,63 @@
     justify-content: center;
     align-items: center;
 
-    width: 132px;
-    height: 54px;
-
-    background-image: url('../../images/Vector-times.svg');
-
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 400; 
     line-height: 100%;
 
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1920px) and (min-width: 761px) {
+@media screen and (min-width: 1921px) {
+    .frame-timer_wrap {
+        max-width: 132px;
+        max-height: 54px;
+
+        background-image: url('../../images/Vector-times.svg');
+
+        font-size: 16px;  
+    }
+    .mobile {
+        display: none;
+    } 
+}
+
+@media screen and (max-width: 1920px) and (min-width: 361px) {
     .count {
         font-size: 36px;
     }
+    .frame-timer_wrap {
+        width: 64px;
+        height: 40px;
+
+        background-size: cover;
+        background-image: url('../../images/Vector-times_mini.svg');
+        
+        font-size: 12px;  
+    }
+
+    .desktop {
+        display: none;
+    }
+
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 360px) {
     .count {
-        font-size: 36px;
+        font-size: 18px;
+    }
+    .frame-timer_wrap {
+        width: 44px;
+        height: 27px;
+
+        background-size: cover;
+        background-image: url('../../images/Vector-times_mini.svg');
+        
+        font-size: 12px;  
+    }
+
+    .desktop {
+        display: none;
     }
 }

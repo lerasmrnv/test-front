@@ -1,0 +1,19 @@
+{
+  "name": "test-front",
+  "version": "1.0.0",
+  "description": "Выполнение тестового задания Egorov Agency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerasmrnv/test-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lerasmrnv/test-front/issues"
+  },
+  "homepage": "https://github.com/lerasmrnv/test-front#readme"
+}
